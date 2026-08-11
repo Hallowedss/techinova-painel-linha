@@ -1,24 +1,25 @@
 # Respostas do LAB 01
 
-Nome:
-Matricula:
+Nome: Caio Cabral
+Matricula: 26175211
 Dupla (M2 em diante):
 
 ---
 
 ## M2 - Quem quebrou o painel
-
+  Tarcisio Melo
 **Hash curto do commit que introduziu o erro:**
-
+   01ef93bf 
 **Autor:**
-
+  Tarcisio Melo
 **Data:**
-
+ Mon Jun 15 22:38:00 2026
 **Linha alterada (antes e depois):**
+ linha 10 alterada
 
 ```
-antes:
-depois:
+antes: return leitura * 9 / 5 + 32; 
+depois: return (leitura - 32) * 5 / 9;
 ```
 
 ---

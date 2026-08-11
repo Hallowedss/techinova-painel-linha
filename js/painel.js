@@ -7,7 +7,7 @@ async function carregarSensores() {
 }
 
 function converterTemperatura(leitura) {
-  return leitura * 9 / 5 + 32;
+ return (leitura - 32) * 5 / 9;
 }
 
 function desenharLinha(sensor) {
